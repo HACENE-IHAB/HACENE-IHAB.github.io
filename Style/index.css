@@ -1,0 +1,139 @@
+header {
+  /* changed the content to animation.css
+  also changed the class name from .header to header */
+  background-color: #ffecec;
+  padding: 10px;
+  border-radius: 10px;
+}
+legend {
+  font-family: "Courier New", Courier, monospace;
+}
+div {
+  width: auto;
+  background-color: #ffecec;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  justify-content: column;
+  justify-content: space-evenly;
+  padding: 15px;
+  font-family: "Courier New", Courier, monospace;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-color: #ececff;
+  scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth;
+}
+.pp {
+  margin-top: 100px;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+}
+img {
+  border-radius: 20px;
+}
+table {
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+.univ {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffa0a0;
+}
+
+.checkbox {
+  padding: 5%;
+}
+table {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-spacing: 3px;
+  width: 14%;
+  border: 3px solid #000000;
+
+  padding: 8px;
+}
+tr {
+  margin: 40px;
+}
+/* no longer in use for the table
+td:nth-child(even),
+th:nth-child(even) {
+  background-color: #a2dada;
+}
+
+td:nth-child(1),
+th:nth-child(1) {
+  background-color: #ffa0a0;
+}
+tr:hover {
+  scale: 1.1;
+}*/
+p {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.univ-div {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.univ-p {
+  text-align: center;
+}
+.lottie {
+  margin-left: 45%;
+  width: 100px;
+  background-color: #000000;
+}
+.top-site {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.pwidth {
+  width: 60%;
+  text-align: justify;
+  text-indent: 10px;
+}
+.bor{
+  width 20%;
+  height: 100%;
+  border: 1px solid black;
+  text-align: center;
+}

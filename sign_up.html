@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style/index.css" />
+    <link rel="stylesheet" href="Style/div_width-cause_to-tierd_to-rename_divs-classes.css" />
+    <link rel="stylesheet" href="Style/grdnt.css">
+    <title>sign up</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav">
+        <div>
+          <a href="/index.html"><li>Home</li></a>
+        </div>
+        <div>
+          <a href="/login.html"> <li>Login</li></a>
+        </div>
+        <div>
+          <a href="/univ.html"> <li>univ site</li></a>
+        </div>
+      </ul>
+    </nav>
+    <form>
+      <fieldset>
+        <legend>sign up</legend>
+        <div>
+          <div class="center-plz">
+            <label for="">*Firstrname </label>
+            <input type="text" id="name" required />
+            <label for="">middlename</label> <input type="text" id="name" />
+            <label for="">*lastrname</label>
+            <input type="text" id="name" required />
+            <label for="">*password</label> <input type="password" required />
+            <label for="">date</label> <input type="date" />
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend for="gender" class="center-plz">gender</legend>
+        <div>
+          <nav>
+            <input type="radio" id="male" name="gender " value="male" />
+            <label for="male">male</label>
+          </nav>
+          <nav>
+            <input type="radio" id="female" name="gender " value="female" />
+            <label for="female">female</label>
+          </nav>
+          <nav>
+            <input type="radio" id="pnts" name="gender " value="pnts" />
+            <label for="pnts">prefer not to say</label>
+          </nav>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>address</legend>
+        <div class="center-plz">
+          <label for="street">street</label>
+          <input type="text" id="street" />
+          <label for="city">city</label>
+          <input type="text" id="city" required />
+          <label for="state">state</label>
+          <input type="text" id="state" required />
+          <label for="zip">zip</label>
+          <input type="text" id="zip" required />
+          <label for="country">country</label>
+          <select name="country" id="country">
+            <option value="" selected disabled>--Select Country--</option>
+            <option value="Algeria">Algeria</option>
+            <option value="Egypt">Egypt</option>
+            <option value="Tunisia">Tunisia</option>
+            <option value="Japan" disabled>Japan</option>
+            <option value="Germany" disabled>Germany</option>
+            <option value="France" disabled>France</option>
+            <option value="Korea" disabled>Korea</option>
+            <option value="China" disabled>China</option>
+            <option value="USA" disabled>USA</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>education -for student</legend>
+        <div class="center-plz">
+          <label for="univ">univ</label>
+          <input type="text" id="univ" required />
+          <label for="degree">degree</label>
+          <input type="text" id="degree" required />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>job -for professor</legend>
+        <div class="center-plz">
+          <label for="job">job</label>
+          <input type="text" id="job" />
+        </div>
+      </fieldset>      
+      <fieldset>
+        <legend>contact info</legend>
+        <div class="center-plz">
+          <label for="phone">phone num</label><input type="tel" />
+          <label for="email">*email</label> <input type="email" required />
+        </fieldset>
+      
+          <fieldset>
+            <legend>about you</legend>
+            <div class="center-plz">
+              <label for="about">bio</label>
+              <textarea name="about" id="about" cols="25" rows="10"></textarea>
+            </div>
+          </fieldset>
+          <!-- seperate -->
+          <fieldset>
+            <div>
+          <nav class="checkbox">
+            <input type="checkbox" required /> I agree to terms
+          </nav>
+        
+          <div class="btn">
+            <button
+              style="
+                background: #ecffff;
+                color: black;
+                font-family: Courier New, Courier, monospace;
+              "
+            >
+              submit
+            </button>
+          </div>
+        </div>
+      </fieldset>
+      
+      <fieldset>
+        <legend>have an account?</legend>
+        <div>
+          <a href="/login.html">
+            <p>Login</p>
+          </a>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

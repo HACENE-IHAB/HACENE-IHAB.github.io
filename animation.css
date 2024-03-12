@@ -1,0 +1,68 @@
+/* element with animation are in this file uncluding styling and hovering effects*/
+
+/*@keyframes example {
+  from {
+    background-color: #cfb0b0;
+  }
+  to {
+    background-color: #ffecec;
+  }
+}*/
+@keyframes op {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* The element to apply the animation to */
+.headerk {
+  background-color: #ffecec;
+  animation-name: op;
+  animation-duration: 4s;
+  /*repetetion------ animation-iteration-count: infinite;*/
+  padding: 15px;
+  color: rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  margin: -10px;
+}
+.header {
+  background-color: #ffecec;
+  animation-name: op;
+  animation-duration: 4s;
+  padding: 15px;
+  color: rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  margin: -10px;
+}
+a:hover {
+  color: #ffa0a0;
+}
+p:hover {
+  background-color: #ffecec;
+}
+.top-site img {
+  animation-name: op;
+  animation-duration: 2s;
+  width: 100px;
+}
+
+.article {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  animation-name: op;
+  animation-duration: 2s;
+}
+
+.nav {
+  animation-name: op;
+  animation-duration: 2s;
+}
